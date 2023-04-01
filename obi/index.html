@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TAILWIND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- FLOWBITE -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--   ALPINE JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <script src="header.js"></script>
+    <script src="banner.js"></script>
+    <script src="content.js"></script>
+    <script src="footer.js"></script>
+
+</head>
+
+<body>
+
+    <!-- HEADER START -->
+    <div x-data="header" x-html="header"></div>
+    <!-- HEADER END -->
+
+    <!-- BANNER START -->
+    <div x-data="banner" x-html="banner"></div>
+    <!-- BANNER END -->
+
+    <!-- MAIN CONTENT START -->
+    <div x-data="content" x-html="content"></div>
+    <!-- MAIN CONTENT END -->
+
+
+    <!-- FOOTER START-->
+    <div x-data="footer" x-html="footer"></div>
+    <!-- FOOTER END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+
+
+</body>
+
+</html>
